@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: order
+  datasource:
+    username: root
+    password: zhangke12289
+    url: jdbc:mysql://180.76.172.198/sell?characterEncoding=utf-8&useSSL=false
+PRODUCT:
+  riboon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbancer.RandomRule
+env:
+  test
