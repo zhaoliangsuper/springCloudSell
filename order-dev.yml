@@ -7,3 +7,6 @@ spring:
     url: jdbc:mysql://180.76.172.198/sell?characterEncoding=utf-8&useSSL=false
 env:
   dev11ddd
+girl:
+  name:lili
+  age:18
