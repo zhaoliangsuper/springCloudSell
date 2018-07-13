@@ -8,5 +8,5 @@ spring:
 env:
   dev11ddd
 girl:
-  name:lili
-  age:20
+  name: lili
+  age: 20
