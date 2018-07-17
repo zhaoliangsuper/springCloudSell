@@ -1,0 +1,10 @@
+spring:
+  redis:  #这部分可以放到git上
+      host: 180.76.172.198
+      prot: 6379
+  datasource:
+    username: root
+    password: zhangke12289
+    url: jdbc:mysql://180.76.172.198/sell?characterEncoding=utf-8&useSSL=false  
+env:
+  dev
