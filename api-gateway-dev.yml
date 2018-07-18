@@ -4,7 +4,8 @@ zuul:
     productZuul:  #自定义路由，名字随意，没有规则
       path: /myProduct/**
       serviceId: product   #目标eureka里面的名字
-      sensitiveHeaders:     #敏感信息过滤，设置为空，那么就可以把cookies发送到后台去了，默认是过滤："Cookie", "Set-Cookie", "Authorization"这部分内容
+      sensitiveHeaders:  #敏感信息过滤，设置为空，那么就可以把cookie发送到后台去了，默认是过滤："Cookie", "Set-Cookie", "Authorization"这部分内容
+  sensitive-headers:  #全部服务忽略敏感头（全部服务都可以传递cookie）
 #  #简洁写法,自定义路由
 #   product: /myProduct/**
 #  #排除某些路由，下面地址不允许这个路由访问到，是正则表达式
