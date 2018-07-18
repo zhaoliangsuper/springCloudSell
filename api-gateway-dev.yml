@@ -1,3 +1,7 @@
+spring:
+  redis:  #这部分可以放到git上
+    host: 180.76.172.198
+    prot: 6379
 zuul:
   routes:
 #  # /myProduct/product/list -> /product/product/list
